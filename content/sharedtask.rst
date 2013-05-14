@@ -38,3 +38,15 @@ Shared task Organizers
 - Sandra Kübler (Indiana University, US)
 - Djamé Seddah (Université Paris Sorbonne & INRIAs Alpage Project, France)
 - Reut Tsarfaty (Uppsala University, Sweden)
+
+Acknowledgements
+~~~~~~~~~~~~~~~~
+
+For their precious help preparing the SPMRL 2013 Shared Task and for
+allowing their data to be part of it, we warmly thank the Linguistic
+Data Consortium, the Knowledge Center for Processing Hebrew (MILA),
+the Ben Gurion University, Columbia University, Institute of Computer
+Science (Polish Academy of Sciences), Korea Advanced Institute of
+Science and Technology, University of the Basque Country, University
+of Lisbon, Uppsala University, University of Stuttgart, University of
+Szeged and University Paris Diderot (Paris 7).
