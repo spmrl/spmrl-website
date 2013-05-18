@@ -5,7 +5,8 @@ BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
+PUBLISHCONF=$(CONFFILE)
+#PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 FTP_HOST=localhost
 FTP_USER=anonymous
