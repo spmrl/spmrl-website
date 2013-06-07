@@ -14,7 +14,7 @@ The primary goal of the shared task on parsing morphologically rich languages is
 tracks in constituency parsing and in dependency parsing, in gold as well as in realistic scenarios (the realistic scenario will have no gold
 tokenization, no gold part-of-speech tags and morphological features).
 
-The participants will be provided with data from 10 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish, Portugese, Swedish). The data will be available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
+The participants will be provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data will be available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
 In order to ease cross-linguistic comparisons, the data set will also be released within a common size setting (ie, treebanks of 5000 sentences).
 
 Participating groups are expected to submit a short paper (up to 6 pages - incl. refs -) describing their system which will be published as part of the SPMRL 2013 Shared Task Proceedings.
@@ -31,6 +31,13 @@ Deadline for submission of test runs        August 1
 Submission and announcement of results      August 7        
 Shared task papers due                      September 1
 =========================================   ======================
+
+Data Set 
+~~~~~~~~
+The data set and the procedure to download them are available at 
+
+http://dokufarm.phil.hhu.de/spmrl2013/doku.php
+
 
 Shared task Organizers
 ~~~~~~~~~~~~~~~~~~~~~~
