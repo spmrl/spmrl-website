@@ -45,7 +45,7 @@ $(OUTPUTDIR)/%.html:
 
 clean:
 	mkdir -p $(OUTPUTDIR)
-	find $(OUTPUTDIR) -mindepth 1 -not -name '.git' -exec git rm '{}' ';'
+	find $(OUTPUTDIR) -mindepth 1 -not -name '.git*' -exec git rm '{}' ';'
 	find $(OUTPUTDIR) -mindepth 1 -delete
 
 regenerate: clean

@@ -23,7 +23,8 @@ LINKS =  (('SIGParse', 'http://www.cs.cmu.edu/~sigparse/'),
           ('CL special issue', 'http://www.aclweb.org/anthology-new/J/J13/#1000'),
           ('SP-Sem-MRL 2012','https://sites.google.com/site/spsemmrl2012/'),
           ('SPMRL 2011','https://sites.google.com/site/spmrl2011/'),
-          ('SPMRL 2010','https://sites.google.com/site/spmrl2010/'))
+          ('SPMRL 2010','https://sites.google.com/site/spmrl2010/'),
+          ("SPMRL panel (IWPT'09)",'http://alpage.inria.fr/iwpt09/panel.en.html'))
 
 # Social widget
 SOCIAL = ()
