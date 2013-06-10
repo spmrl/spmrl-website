@@ -97,7 +97,7 @@ Program committee
 -  Aoife Cahill (Educational Testing Service Inc., US)
 -  Ozlem Cetinoglu (University of Stuttgart, Germany)
 -  Jinho Choi (IPSoft Inc., US)
--  Grzegorz Chrupala (Saarland University, Germany)
+-  Grzegorz Chrupala (Tilburg University, Netherlands)
 -  Benoit Crabbé (University of Paris 7, France)
 -  Gülsen Cebiroglu Eryigit (Istanbul Technical University, Turkey)
 -  Michael Elhadad (Ben Gurion University, Israel)
