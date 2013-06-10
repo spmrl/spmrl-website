@@ -49,7 +49,7 @@ Important Dates
 ---------------
 
 ===================    ===============
-Submission deadline    July 01, 2013 
+Submission deadline    July 05, 2013 
 Author Notification    August 01, 2013
 Camera ready copy      September 01, 2013 
 Workshop               October, 2013
