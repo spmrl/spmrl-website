@@ -66,7 +66,9 @@ describe unpublished, substantial and completed research. Short papers
 should be position papers, papers describing work in progress or
 short, focused contributions.
 
-Submissions will be accepted until July, 01 , 2013, (11:59 p.m. PST) in PDF format via the START system (details to be announced)
+Submissions will be accepted until July, 29 , 2013, (11:59 p.m. PST) in PDF format via the `START system`_.
+
+.. _START system: https://www.softconf.com/emnlp2013/SPMRL2013
 
 Shared Task
 ~~~~~~~~~~~
