@@ -26,10 +26,11 @@ Shared Task Provisional Schedule (2013)
 
 =========================================   ======================
 Release of  training and development data   June 6      
-Release of test data                        July 20                         
-Deadline for submission of test runs        August 1              
-Submission and announcement of results      August 7        
-Shared task papers due                      September 1
+Release of test data                        July 28                        
+Deadline for submission of test runs        August 18              
+Submission and announcement of results      August 23        
+Shared task papers due                      September 4
+Shared task camera ready papers due         September 16
 =========================================   ======================
 
 Data Set 
