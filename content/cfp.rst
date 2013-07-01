@@ -60,8 +60,8 @@ Workshop               October 18, 2013
 How to Submit
 -------------
 
-Authors are invited to submit long papers (up to 9 pages + references)
-and short papers (up to 5 pages + references). Long papers should
+Authors are invited to submit *long papers* (up to 9 pages + references)
+and *short papers* (up to 5 pages + references). Long papers should
 describe unpublished, substantial and completed research. Short papers
 should be position papers, papers describing work in progress or
 short, focused contributions.
