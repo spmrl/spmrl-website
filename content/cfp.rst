@@ -48,11 +48,13 @@ The areas of interest of the fourth SPMRL workshop include, but are not limited 
 Important Dates
 ---------------
 
+(NEW: Submission deadline has been moved from July 5th to July 29th)
+
 ===================    ===============
-Submission deadline    July 05, 2013 
-Author Notification    August 01, 2013
-Camera ready copy      September 01, 2013 
-Workshop               October, 2013
+Submission deadline    July 29, 2013 
+Author Notification    August 25, 2013
+Camera ready copy      September 5, 2013 
+Workshop               October 18, 2013
 ===================    ===============
 
 How to Submit
