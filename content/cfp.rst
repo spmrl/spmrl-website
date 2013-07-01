@@ -66,9 +66,11 @@ describe unpublished, substantial and completed research. Short papers
 should be position papers, papers describing work in progress or
 short, focused contributions.
 
-Submissions will be accepted until July, 29 , 2013, (11:59 p.m. PST) in PDF format via the `START system`_.
+Submissions will be accepted until July, 29 , 2013, (11:59 p.m. PST) in PDF format via the `START system`_
+and must be formatted using the `NAACL 2013 stylefiles`_.
 
 .. _START system: https://www.softconf.com/emnlp2013/SPMRL2013
+.. _NAACL 2013 stylefiles: http://hum.csse.unimelb.edu.au/emnlp2013/files/naaclhlt2013.zip
 
 Shared Task
 ~~~~~~~~~~~
