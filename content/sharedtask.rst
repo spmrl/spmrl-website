@@ -47,6 +47,44 @@ Shared task Organizers
 - Djamé Seddah (Université Paris Sorbonne & INRIAs Alpage Project, France)
 - Reut Tsarfaty (Uppsala University, Sweden)
 
+Treebank Provider Teams
+~~~~~~~~~~~~~~~~~~~~~~
+- Coordination effort, Normalization, Alignment between Const. and Dep.:
+  - Djamé Seddah, Reut Tsarfaty and Sandra Kübler
+
+* Arabic
+
+  * Nizar Habash, Ryan Roth (Columbia University) 
+   *Dependencies from Catib's treebank and full predicted morphology data*
+  * Spence Green (Stanford University) 
+    *Code to build Stanford-like Constituents trees*
+
+* Basque
+  * Koldo Gojenola, Iakes Goenaga (University of the Basque Country)
+
+* French
+  * Marie Candito (Univ. Paris 7 & Alpage), Djamé Seddah (Univ. Paris Sorbonne & Alpage)
+  
+* German
+  * Wolfgang Seeker (IMS), Wolfgang Maier (Univ. of Dusseldorf), Yannick Versley (Univ. of Tuebingen) & Ines Rehbein  (Postdam Univ.)
+  
+* Hebrew
+  * Yoav Goldberg (Ben Gurion Univ), Reut Tsarfaty (Weizmann Institute of Science)
+  
+* Hungarian
+  * Richárd Farkas, Veronika Vincze (Univ. of Szeged)
+
+* Korean
+  * Jinho D. Choi (IPsoft Inc.)
+
+* Polish
+  * Adam Przepiorkowski, Marcin Woliński, Alina Wróblewska (Institute of Computer Science, Polish Academy of Sciences)
+
+* Swedish
+  * Joakim Nivre (Uppsala Univ.), Marco Kuhlmann (Linköping University)
+
+
+
 Acknowledgements
 ~~~~~~~~~~~~~~~~
 
