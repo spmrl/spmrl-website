@@ -59,6 +59,8 @@ Treebank Provider Teams
     *Dependencies from Catib's treebank and full predicted morphology data*
   * Spence Green (Stanford University) 
     *Code to build Stanford-like Constituents trees*
+  * Ann Bies, Seth Kullick, Mohammed Maamouri (the Linguistic Data Consortium)
+    *Original data set*
 
 * Basque
 
