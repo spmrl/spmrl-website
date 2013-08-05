@@ -45,7 +45,7 @@ Shared task Organizers
 
 - Sandra Kübler (Indiana University, US)
 - Djamé Seddah (Université Paris Sorbonne & INRIAs Alpage Project, France)
-- Reut Tsarfaty (Uppsala University, Sweden)
+- Reut Tsarfaty (Weizmann Institute of Science, Israel)
 
 Treebank Provider Teams
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -92,6 +92,9 @@ Treebank Provider Teams
   
   * Joakim Nivre (Uppsala Univ.), Marco Kuhlmann (Linköping University)
 
+We thank the Linguistic Data Consortium for agreeing to release their current versions of the Arabic Treebank for this Shared Task.
+(Ann Bies, Denise Di Pierso, Seth Kullick, Mohammed Maamouri)
+
 Special thanks to Ozlem Cetinoglu & Thomas Müller (IMS), Yuval Marton (Microsoft Inc.), Miguel Ballesteros (Univ. Pompeu Fabra)
 for helping us debugging the data set at many occasions!
 
@@ -110,3 +113,21 @@ Science and Technology, University of the Basque Country, University
 of Lisbon, Uppsala University, University of Stuttgart, University of
 Szeged and University Paris Diderot (Paris 7).
 We are also very grateful to the Philosophical Faculty of the Heinrich-Heine Universität Düsseldorf for hosting the shared task data via their dokuwiki.
+
+
+We take advantage of this page to warmly and publicly thank  once more all
+the people involved in this shared task preparation (original data
+set, scripting, website, institutionnal and moral support):
+
+(no particular order) Marie Candito, Jennifer Foster, Yoav Goldberg,
+Ines Rehbein, Yannick Versley, Ann Bies, Denise Di Pierso, Seth
+Kullick, Mohammed Maamouri, Spence Green, Christopher Manning, Mona
+Diab, Nizar Habash, Yuval Marton, Owen Rambow, Ryan Roth, Jinho
+Choi, Key-Sun Choi, Koldo Gojenola, Iakes Goenaga, Richard Farkas,
+Veronika Vincze, Adam Przepiorkowski, Alina Wróblewska, Marcin
+Woliński, Anne Abeillé, Joseph van Genabith, Marco Kullman, Joakim
+Nivre, Ozlem Cetinoglu, Wolfgang Maier, Wolfgang Seeker, Khahil
+Sima'an, Harry Bunt, Alon Lavie, Benoit Sagot, Benoit Crabbé,
+Laurence Danlos, Eric de la Clergerie, James Henderson, Slav Petrov,
+Zhongqiang Huang, Joseph Le Roux, Grzegorz Chrupala.
+
