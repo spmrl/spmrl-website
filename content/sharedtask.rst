@@ -92,6 +92,10 @@ Treebank Provider Teams
   
   * Joakim Nivre (Uppsala Univ.), Marco Kuhlmann (Linköping University)
 
+Special thanks to Ozlem Cetinoglu & Thomas Müller (IMS), Yuval Marton (Microsoft Inc.), Miguel Ballesteros (Univ. Pompeu Fabra)
+for helping us debugging the data set at many occasions!
+
+
 
 
 Acknowledgements
