@@ -48,7 +48,8 @@ Shared task Organizers
 - Reut Tsarfaty (Weizmann Institute of Science, Israel)
 
 Treebank Provider Teams
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+
 - Coordination effort, Normalization, Alignment between Const. and Dep.:
 
   - Djamé Seddah, Reut Tsarfaty and Sandra Kübler
