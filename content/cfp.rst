@@ -85,6 +85,7 @@ Workshop
 ~~~~~~~~
 
 - Yoav Goldberg (Bar Ilan University, Israel)
+- Yuval Marton (Colombia University, US)
 - Ines Rehbein (Potsdam University, Germany)
 - Yannick Versley (Tübingen University, Germany)
 
