@@ -45,11 +45,11 @@ $(OUTPUTDIR)/%.html:
 
 clean:
 	mkdir -p $(OUTPUTDIR)
-	find $(OUTPUTDIR) -mindepth 1 -not -name '.git*' -exec git rm '{}' ';'
+#	find $(OUTPUTDIR) -mindepth 1 -not -name '.git*' -exec git rm -f '{}' ';'
 	find $(OUTPUTDIR) -mindepth 1 -delete
 
 regenerate: clean
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN)  $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
@@ -78,4 +78,14 @@ github: publish
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
+
+svn: publish
+	svn commit -m "adding by djame" ./
+
+
+
+
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
+
+
+
