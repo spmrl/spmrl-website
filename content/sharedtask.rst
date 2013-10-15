@@ -40,7 +40,7 @@ Metrics
 ~~~~~~~
 
 Gold Tokens Scenarios:
-
+~~~~~~~~~~~~~~~~~~~~~
 * Dependency Structure:
 	* We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
  
@@ -52,6 +52,11 @@ Gold Tokens Scenarios:
 	
 	
 Predicted Tokens Scenarios:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	* We used TedEval (Tsarfaty et al 2010,2011,2012) in its realistic framework (namely  a test file with its own mapping between predicted tokens and source tokens is evaluated upon a gold file and the gold token mapping). TedEval is available at http://www.tsarfaty.com/unipar/download.html.  
+	* We developped a set of wrappers that use MaltParser's reprojectiver (Nivre & Nilsson, 2005). Wrappers are available here http://pauillac.inria.fr/~seddah/TedWrappers_20131015.tar.gz
+	
+
 	
 
 
