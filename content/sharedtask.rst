@@ -10,7 +10,7 @@ Shared Task
 
 The fourth SPMRL workshop  hosted the first shared task on parsing morphologically rich languages.
 The previous page is available at http://www.spmrl.org/shared_task_old.html
-(note: this webpage is in heavy editing, will be up to date before the worksop)
+(note: this webpage is in heavy editing, will be up to date before the workshop)
 
 
 Goals 
@@ -26,7 +26,7 @@ Data Set
 
 The participants were provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data were available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
 In order to ease cross-linguistic comparisons, the data set have also been released within a common size setting (ie, treebanks of 5000 sentences).
-
+All treebanks (dep. and const.) are aligned at the sentence, token and POS levels.
 
 
 The data set and the procedure to download them are available at 
@@ -40,25 +40,26 @@ Metrics
 ~~~~~~~
 
 Gold Tokens Scenarios:
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 * Dependency Structure:
-	* We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
+	- We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
  
 * Phrase Structures
-	* We used two metrics: Parseval (Evalb, (Black et al, 91) and LeafAncestor (Sampson and Babarczy, 2003). With a modified version (from Sancl 2012 (Petrov and Mc Donald, 2012) that penalises unparsed trees for the former and with an implementation from Wagner (2012) for the latter. 
-	* Evalb spmrl : http://pauillac.inria.fr/~seddah/evalb_spmrl2013.tar.gz (please read the README file, we used the -X option)
-	* LeafAncestor: http://pauillac.inria.fr/~seddah/parse_la.py  (please read the disclaimer on top of the file)	
-	* Note: as oppposed to the common usage in the parsing communities, all constituency results are given for sentences of all lenght and all tokens are evaluated (including punctuation tokens). For both Evalb and LeafAncestor, the labels {TOP, S1, ROOT, VROOT} are stripped off.
+	- We used two metrics: Parseval (Evalb, (Black et al, 91) and LeafAncestor (Sampson and Babarczy, 2003). With a modified version (from Sancl 2012 (Petrov and Mc Donald, 2012) that penalises unparsed trees for the former and with an implementation from Wagner (2012) for the latter. 
+		+ Evalb spmrl : http://pauillac.inria.fr/~seddah/evalb_spmrl2013.tar.gz (please read the README file, we used the -X option)
+		+ LeafAncestor: http://pauillac.inria.fr/~seddah/parse_la.py  (please read the disclaimer on top of the file)	
+	- Note: as oppposed to the common usage in the parsing communities, all constituency results are given for sentences of all lenght and all tokens are evaluated (including punctuation tokens). For both Evalb and LeafAncestor, the labels {TOP, S1, ROOT, VROOT} are stripped off.
 	
 * Multi Word Expressions evaluation:
-	* The French data set contains MWEs annotated at the morpho syntactic level. We evaluated them for the dependency track only. (see wiki page http://dokufarm.phil.hhu.de/spmrl2013/doku.php?id=shared_task_description )
-	* MWE Evaluator: http://pauillac.inria.fr/~seddah/do_eval_dep_mwe.pl
+	- The French data set contains MWEs annotated at the morpho syntactic level. We evaluated them for the dependency track only. (see wiki page http://dokufarm.phil.hhu.de/spmrl2013/doku.php?id=shared_task_description )
+		+ MWE Evaluator: http://pauillac.inria.fr/~seddah/do_eval_dep_mwe.pl
 
 	
 Predicted Tokens Scenarios:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	* We used TedEval (Tsarfaty et al 2010,2011,2012) in its realistic framework (namely  a test file with its own mapping between predicted tokens and source tokens is evaluated upon a gold file and the gold token mapping). TedEval is available at http://www.tsarfaty.com/unipar/download.html.  
-	* We developped a set of wrappers that use MaltParser's reprojectiver (Nivre & Nilsson, 2005). Wrappers are available here http://pauillac.inria.fr/~seddah/TedWrappers_20131015.tar.gz
+---------------------------
+* Dependency  and Constituent Structures
+	- We used TedEval (Tsarfaty et al 2010,2011,2012) in its realistic framework (namely  a test file with its own mapping between predicted tokens and source tokens is evaluated upon a gold file and the gold token mapping). TedEval is available at http://www.tsarfaty.com/unipar/download.html.  
+	- We developped a set of wrappers that use MaltParser's reprojectiver (Nivre & Nilsson, 2005). Wrappers are available here http://pauillac.inria.fr/~seddah/TedWrappers_20131015.tar.gz
 	
 
 	
@@ -67,8 +68,14 @@ Predicted Tokens Scenarios:
 Results
 ~~~~~~~
 
+Background information and extensive details on the evaluation scenarios and discussions on the results are provided on the Shared Task Overview paper (Seddah et al., 2013)
+http://aclweb.org/anthology//W/W13/W13-4917.pdf
+
+
+
+
 Dependency Parsing Track
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 We used the same protocol as in Conll 2007 (Nivre et al, 2007) in two settings for 4 scenarios:
 
@@ -80,25 +87,126 @@ Note that the predicted data were provided as baseline, participants were free t
 * http://pauillac.inria.fr/~seddah/updated_official.csv
 
 
-All languages ranking
+All languages ranking (Pred/Full)
+*********************************
 
 * 1st IMS-SZEGED-CIS
 * 2nd Alpage-Dyalog
 * 3rd MaltOptimier
 
+Breakdown by language (Pred/Full)
+* Arabic
+- IMS-SZEGED-CIS
+- CADIM
+- MALTOPTIMIZER
+
+* Basque
+- IMS-SZEGED-CIS
+- BASQUE TEAM
+- MALTOPTIMIZER
+
+* French
+- IGM-ALPAGE
+- IMS-SZEGED-CIS
+- BASQUE TEAM
+
+* German
+- IMS-SZEGED-CIS
+- BASQUE TEAM
+- ALPAGE DYALOG
+
+* Hebrew
+- IMS-SZEGED-CIS
+- ALPAGE DYALOG
+- MALTOPTIMIZER
+
+* Hungarian
+- IMS-SZEGED-CIS
+- BASQUE TEAM
+- MALTOPTIMIZER
+
+* Korean
+- IMS-SZEGED-CIS
+- MALTOPTIMIZER
+- BASELINE MALT
+
+* Polish
+- IMS-SZEGED-CIS
+- ALPAGE DYALOG
+- MALTOPTIMIZER
+
+* Swedish
+- IMS-SZEGED-CIS
+- BASQUE TEAM
+- ALPAGE DYALOG
+
+(Teams that used undisclosed unlabeled data are not part of the official ranking)
 
 
 
 Constituent Parsing track
-Only IMS-SZEGED-CIS participated, we provide baseline results using the Berkeley Parser (Petrov et al, 2006, 2007) 
+-------------------------
+Only IMS-SZEGED-CIS participated, we provided baseline results using the Berkeley Parser in its default mode -- s/m: 5, OOV threshold: 10, default lexicon -- (Petrov et al, 2006, 2007) in two modes: with provided POS Tags (ie Tagged) and in Raw mode (the parser did its own pos tagging). 
 
-* http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html
-* http://pauillac.inria.fr/~seddah/official_ptb-all.csv
+* Parseval scores:
+- http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html
+- http://pauillac.inria.fr/~seddah/official_ptb-all.csv
+
+* LeafAncestor scores:
+- http://pauillac.inria.fr/~seddah/official_leaf-all.spmrl_results.html
+- http://pauillac.inria.fr/~seddah/official_leaf-all.csv
 
 
+Non Gold Token Evaluation
+-------------------------
+
+Arabic and Hebrew data set were provided with generated lattices (disambiguated and non-disambiguated for Hebrew, disambiguated only for Arabic – the data exist though, they should be made available at some points –)
+
+Results on the predicted tokens scenarios are evaluated using Tedeval 2.2 (Tsarfaty et al, 2011,2012) in two modes:
+
+A fully labeled mode (where edges, either from const. trees or dependencies, are decorated by their original labels). This mode allow for a full comparison between dependency parses produced on gold tokens and predicted tokens from the raw source text.
+An unlabeled mode which allows for easier cross-framework comparison (between const. and dep. parsers). In order to perform a fully labeled evaluation of a const. tree, each edges needs to bear a function label. Please see the overview paper for full details on the cross framework scenarios.
+
+* Unlabeled mode
+- http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html
+
+	- Arabic Ranking (full/pred)
+		+ IMS-SZEGED-CIS
+		+ CADIM
+		+ MALTOPTIMER
+	
+	- Hebrew Ranking (full/pred)	
+		+ IMS-SZEGED-CIS
+		+ ALPAGE DYALOG
+		+ MALTOPTIMIZER
+		
+
+* Labeled mode
+- http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html
+
+	- Arabic Ranking (full/pred)
+		+ IMS-SZEGED-CIS
+		+ CADIM
+		+ MALTOPTIMER
+	
+	- Hebrew Ranking (full/pred)	
+		+ IMS-SZEGED-CIS
+		+ MALTOPTIMIZER	
+		+ ALPAGE DYALOG
+			
+
+Getting the Shared Task Data Set
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All data but Arabic are freely available under the same conditions as during the shared task. Unless stated otherwise by their original licenses, any commercial exploitation of treebank data, derived parsing or tagging models are prohibited. Those data set are made available for reproductibility's sake and in the hope that this shared task data will provide inspiration for the design and evaluation of future parsing systems for these languages.
+The Arabic data we provided is based on the LDC's ATB 4.1, 3.1 and 3.2, then converted to both Columbia's CaTib Dependency Treebank (Habash & Roth, 2009) and to Stanford's preprocessed version
+of the ATB (Green & Manning, 2010). 
+is to be made available soon by the LDC via its usual channels. Contact us at spmrl.sharedtask@gmail.com if you absolutely need the data urgently, we'll made available our (huge) set of scripts we used
+to create the data.
 
 
-
+* `Licences <http://dokufarm.phil.hhu.de/spmrl2013/doku.php?id=how_to_obtain_licenses_for_the_shared_task_data>`_.
+* `How are the Data Organized <http://dokufarm.phil.hhu.de/spmrl2013/doku.php?id=frequently_asked_questions#how_are_the_data_organized>`_.
+ 
 
 Shared task Organizers
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -106,6 +214,13 @@ Shared task Organizers
 - Sandra Kübler (Indiana University, US)
 - Djamé Seddah (Université Paris Sorbonne & INRIAs Alpage Project, France)
 - Reut Tsarfaty (Weizmann Institute of Science, Israel)
+
+Contact
+~~~~~~~
+mail: spmrl.sharedtask@gmail.com
+Mailing list (still active, do not hesitate to ask questions):  https://sympa.inria.fr/sympa/arc/mrlp-sharedtask
+
+
 
 Treebank Provider Teams
 ~~~~~~~~~~~~~~~~~~~~~~~
