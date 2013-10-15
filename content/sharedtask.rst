@@ -17,22 +17,42 @@ Goals
 ~~~~~
 
 The primary goal of the shared task on parsing morphologically rich languages was to bring forward work on parsing morphologically ambiguous input in both dependency and constituency parsing, and to show the state of the art for MRLs. In the longer term,  we aim to provide streamlined data sets and  evaluation metrics, thus improving the comparability of cross linguistic work on parsing MRLs. The shared task featured
-tracks in constituency parsing and in dependency parsing, in gold as well as in realistic scenarios (the realistic scenario will have no gold tokenization, no gold part-of-speech tags and morphological features).
+tracks in constituency parsing and in dependency parsing, in gold as well as in realistic scenarios (the realistic scenario  has no gold tokenization, no gold part-of-speech tags and morphological features).
 
-
-
-
-
-
-The participants will be provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data will be available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
-In order to ease cross-linguistic comparisons, the data set will also be released within a common size setting (ie, treebanks of 5000 sentences).
 
 
 Data Set 
 ~~~~~~~~
+
+The participants were provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data were available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
+In order to ease cross-linguistic comparisons, the data set have also been released within a common size setting (ie, treebanks of 5000 sentences).
+
+
+
 The data set and the procedure to download them are available at 
 
 http://dokufarm.phil.hhu.de/spmrl2013/doku.php
+
+
+
+
+Metrics
+~~~~~~~
+* Dependency Structure:
+	* We use CoNLL 2007's eval07.pl (with slightly modified output)
+
+
+ 
+* Phrase Structures
+
+
+
+
+
+
+
+
+
 
 
 
