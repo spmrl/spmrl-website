@@ -13,7 +13,7 @@ The previous page is available at http://www.spmrl.org/shared_task_old.html
 (note: this webpage is in heavy editing, will be up to date before the worksop)
 
 
-Goals 
+Goals
 ~~~~~
 
 The primary goal of the shared task on parsing morphologically rich languages was to bring forward work on parsing morphologically ambiguous input in both dependency and constituency parsing, and to show the state of the art for MRLs. In the longer term,  we aim to provide streamlined data sets and  evaluation metrics, thus improving the comparability of cross linguistic work on parsing MRLs. The shared task featured
@@ -21,7 +21,7 @@ tracks in constituency parsing and in dependency parsing, in gold as well as in 
 
 
 
-Data Set 
+Data Set
 ~~~~~~~~
 
 The participants were provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data were available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
@@ -40,7 +40,7 @@ Metrics
 ~~~~~~~
 
 Gold Tokens Scenarios:
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 * Dependency Structure:
 	* We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
  
