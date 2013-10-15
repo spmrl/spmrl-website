@@ -1,0 +1,10 @@
+1) How to install pelican
+install Python's pip package manager
+sudo apt-get install python-pip
+install pelican
+sudo pip install pelican
+
+2) How to update the site
+edit the .rst files
+
+bash update_the_website.sh
