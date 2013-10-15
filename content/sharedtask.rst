@@ -13,7 +13,7 @@ The previous page is available at http://www.spmrl.org/shared_task_old.html
 (note: this webpage is in heavy editing, will be up to date before the worksop)
 
 
-Goals
+Goals 
 ~~~~~
 
 The primary goal of the shared task on parsing morphologically rich languages was to bring forward work on parsing morphologically ambiguous input in both dependency and constituency parsing, and to show the state of the art for MRLs. In the longer term,  we aim to provide streamlined data sets and  evaluation metrics, thus improving the comparability of cross linguistic work on parsing MRLs. The shared task featured
@@ -21,7 +21,7 @@ tracks in constituency parsing and in dependency parsing, in gold as well as in 
 
 
 
-Data Set
+Data Set 
 ~~~~~~~~
 
 The participants were provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data were available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
@@ -40,7 +40,7 @@ Metrics
 ~~~~~~~
 
 Gold Tokens Scenarios:
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 * Dependency Structure:
 	* We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
  
@@ -50,6 +50,10 @@ Gold Tokens Scenarios:
 	* LeafAncestor: http://pauillac.inria.fr/~seddah/parse_la.py  (please read the disclaimer on top of the file)	
 	* Note: as oppposed to the common usage in the parsing communities, all constituency results are given for sentences of all lenght and all tokens are evaluated (including punctuation tokens). For both Evalb and LeafAncestor, the labels {TOP, S1, ROOT, VROOT} are stripped off.
 	
+* Multi Word Expressions evaluation:
+	* The French data set contains MWEs annotated at the morpho syntactic level. We evaluated them for the dependency track only. (see wiki page http://dokufarm.phil.hhu.de/spmrl2013/doku.php?id=shared_task_description )
+	* MWE Evaluator: http://pauillac.inria.fr/~seddah/do_eval_dep_mwe.pl
+
 	
 Predicted Tokens Scenarios:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,11 +64,36 @@ Predicted Tokens Scenarios:
 	
 
 
+Results
+~~~~~~~
+
+Dependency Parsing Track
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+We used the same protocol as in Conll 2007 (Nivre et al, 2007) in two settings for 4 scenarios:
+
+Full train set size ⇒ with gold or predicted morphology (POS tag and features)
+5k sentences train set size ⇒ with gold or predicted morphology (POS tag and features).
+Note that the predicted data were provided as baseline, participants were free to use theirs. The French, Hebrew and Arabic predicted train sets have not been subjected to a cross fold jackniffing so participants were incited to do it (only a few did use their own predicted morphology though: Alpage-IGM and Alpage-Dyalog for French, Cadim for Arabic and IMS_SGZEDED_CIS for all languages.)
+
+* http://pauillac.inria.fr/~seddah/updated_official.spmrl_results.html
+* http://pauillac.inria.fr/~seddah/updated_official.csv
+
+
+All languages ranking
+
+*1st IMS-SZEGED-CIS
+*2nd Alpage-Dyalog
+*3rd MaltOptimier
 
 
 
 
+Constituent Parsing track
+Only IMS-SZEGED-CIS participated, we provide baseline results using the Berkeley Parser (Petrov et al, 2006, 2007) 
 
+*http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html
+*http://pauillac.inria.fr/~seddah/official_ptb-all.csv
 
 
 
