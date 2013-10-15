@@ -40,7 +40,7 @@ Metrics
 ~~~~~~~
 
 Gold Tokens Scenarios:
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 * Dependency Structure:
 	* We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
  
@@ -82,9 +82,9 @@ Note that the predicted data were provided as baseline, participants were free t
 
 All languages ranking
 
-*1st IMS-SZEGED-CIS
-*2nd Alpage-Dyalog
-*3rd MaltOptimier
+* 1st IMS-SZEGED-CIS
+* 2nd Alpage-Dyalog
+* 3rd MaltOptimier
 
 
 
@@ -92,8 +92,8 @@ All languages ranking
 Constituent Parsing track
 Only IMS-SZEGED-CIS participated, we provide baseline results using the Berkeley Parser (Petrov et al, 2006, 2007) 
 
-*http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html
-*http://pauillac.inria.fr/~seddah/official_ptb-all.csv
+* http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html
+* http://pauillac.inria.fr/~seddah/official_ptb-all.csv
 
 
 
