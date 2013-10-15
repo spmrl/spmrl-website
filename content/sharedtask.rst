@@ -10,29 +10,57 @@ Shared Task
 
 The fourth SPMRL workshop  hosted the first shared task on parsing morphologically rich languages.
 The previous page is available at http://www.spmrl.org/shared_task_old.html
-
+(note: this webpage is in heavy editing, will be up to date before the worksop)
 
 
 Goals 
 ~~~~~
 
 The primary goal of the shared task on parsing morphologically rich languages was to bring forward work on parsing morphologically ambiguous input in both dependency and constituency parsing, and to show the state of the art for MRLs. In the longer term,  we aim to provide streamlined data sets and  evaluation metrics, thus improving the comparability of cross linguistic work on parsing MRLs. The shared task featured
-tracks in constituency parsing and in dependency parsing, in gold as well as in realistic scenarios (the realistic scenario will have no gold tokenization, no gold part-of-speech tags and morphological features).
+tracks in constituency parsing and in dependency parsing, in gold as well as in realistic scenarios (the realistic scenario  has no gold tokenization, no gold part-of-speech tags and morphological features).
 
-
-
-
-
-
-The participants will be provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data will be available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
-In order to ease cross-linguistic comparisons, the data set will also be released within a common size setting (ie, treebanks of 5000 sentences).
 
 
 Data Set 
 ~~~~~~~~
+
+The participants were provided with data from 9 different languages (Arabic, Basque, French, German, Hebrew, Hungarian, Korean, Polish,Swedish). The data were available in Penn Treebank bracketing format, CoNLL-X format and optionally in TiGerXML.
+In order to ease cross-linguistic comparisons, the data set have also been released within a common size setting (ie, treebanks of 5000 sentences).
+
+
+
 The data set and the procedure to download them are available at 
 
 http://dokufarm.phil.hhu.de/spmrl2013/doku.php
+
+
+
+
+Metrics
+~~~~~~~
+
+Gold Tokens Scenarios:
+
+* Dependency Structure:
+	* We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
+ 
+* Phrase Structures
+	* We used two metrics: Parseval (Evalb, (Black et al, 91) and LeafAncestor (Sampson and Babarczy, 2003). With a modified version (from Sancl 2012 (Petrov and Mc Donald, 2012) that penalises unparsed trees for the former and with an implementation from Wagner (2012) for the latter. 
+	* Evalb spmrl : http://pauillac.inria.fr/~seddah/evalb_spmrl2013.tar.gz (please read the README file, we used the -X option)
+	* LeafAncestor: http://pauillac.inria.fr/~seddah/parse_la.py  (please read the disclaimer on top of the file)	
+	* Note: as oppposed to the common usage in the parsing communities, all constituency results are given for sentences of all lenght and all tokens are evaluated (including punctuation tokens). For both Evalb and LeafAncestor, the labels {TOP, S1, ROOT, VROOT} are stripped off.
+	
+	
+Predicted Tokens Scenarios:
+	
+
+
+
+
+
+
+
+
 
 
 
