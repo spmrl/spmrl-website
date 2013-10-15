@@ -10,7 +10,7 @@ Shared Task
 
 The fourth SPMRL workshop  hosted the first shared task on parsing morphologically rich languages.
 The previous page is available at http://www.spmrl.org/shared_task_old.html
-
+(note: this webpage is in heavy editing, will be up to date before the worksop)
 
 
 Goals 
@@ -38,13 +38,27 @@ http://dokufarm.phil.hhu.de/spmrl2013/doku.php
 
 Metrics
 ~~~~~~~
+
+Gold Tokens Scenarios:
+
 * Dependency Structure:
-	* We use CoNLL 2007's eval07.pl (with slightly modified output)
-
-
+	* We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) 
+	via CoNLL 2007's eval07.pl (with slightly modified output)
+	http://pauillac.inria.fr/~seddah/eval07.pl
  
 * Phrase Structures
-
+	* We used two metrics: Parseval (Evalb, (Black et al, 91) and LeafAncestor (Sampson and Babarczy, 2003).
+	With a modified version (from Sancl 2012 (Petrov and Mc Donald, 2012) that penalises unparsed trees for the former
+	and with an implementation from Wagner (2012) for the latter. 
+	- Evalb spmrl : http://pauillac.inria.fr/~seddah/evalb_spmrl2013.tar.gz (please read the README file, we used the -X option)
+	- LeafAncestor: http://pauillac.inria.fr/~seddah/parse_la.py  (please read the disclaimer on top of the file)
+	
+	* Note: as oppposed to the common usage in the parsing communities, all constituency results are given for sentences
+	of all lenght and all tokens are evaluated (including punctuation tokens). For both Evalb and LeafAncestor, the labels {TOP, S1, ROOT, VROOT} are stripped off.
+	
+	
+Predicted Tokens Scenarios:
+	
 
 
 
