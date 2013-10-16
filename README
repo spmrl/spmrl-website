@@ -8,3 +8,17 @@ sudo pip install pelican
 edit the .rst files
 
 bash update_the_website.sh
+
+3) How to see what you're doing locally without
+updating the actual website
+
+bash develop_server.sh start
+
+and then point your browser at localhost:8000
+
+(any changes to content file will be detected and
+the output/ directory updated on the fly).
+
+Stop the whole thing with
+
+bash develop_server.sh stop
