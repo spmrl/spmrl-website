@@ -64,7 +64,7 @@ Predicted Tokens Scenarios:
 ---------------------------
 * Dependency  and Constituent Structures
 
-	- We used TedEval (Tsarfaty et al 2010,2011,2012) in its realistic framework (namely  a test file with its own mapping between predicted tokens and source tokens is evaluated upon a gold file and the gold token mapping). TedEval is available at http://www.tsarfaty.com/unipar/download.html.  
+	- We used TedEval (Tsarfaty et al 2010,2011,2012) in its realistic framework (namely  a test file with its own mapping between predicted tokens and source tokens is evaluated upon a gold file and the gold token mapping). TedEval is available here: `Tedeval 2.2 <http://www.tsarfaty.com/unipar/download.html>`_.  
 	- We developped a set of wrappers that use MaltParser's reprojectiver (Nivre & Nilsson, 2005). Wrappers are available here: `TedWrappers_20131015.tar.gz <http://pauillac.inria.fr/~seddah/TedWrappers_20131015.tar.gz>`_
 	
 
