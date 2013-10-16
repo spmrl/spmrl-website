@@ -42,22 +42,22 @@ Metrics
 Gold Tokens Scenarios:
 ----------------------
 * Dependency Structure:
-	- We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's eval07.pl (with slightly modified output) http://pauillac.inria.fr/~seddah/eval07.pl
+	- We mainly used Labeled Attachment Scores (Buchholz and Marsi, 2006) via CoNLL 2007's `eval07.pl (with slightly modified output) <http://pauillac.inria.fr/~seddah/eval07.pl>`_
  
 * Phrase Structures
 
 	- We used two metrics: Parseval (Evalb, (Black et al, 91) and LeafAncestor (Sampson and Babarczy, 2003). With a modified version (from Sancl 2012 (Petrov and Mc Donald, 2012) that penalises unparsed trees for the former and with an implementation from Wagner (2012) for the latter. 
 		
-		+ Evalb spmrl : http://pauillac.inria.fr/~seddah/evalb_spmrl2013.tar.gz (please read the README file, we used the -X option)
-		+ LeafAncestor: http://pauillac.inria.fr/~seddah/parse_la.py  (please read the disclaimer on top of the file)
+		+ Evalb spmrl : `evalb_spmrl2013.tar.gz <http://pauillac.inria.fr/~seddah/evalb_spmrl2013.tar.gz>`_ (please read the README file, we used the -X option)
+		+ LeafAncestor: `parse_la.py <http://pauillac.inria.fr/~seddah/parse_la.py>`_  (please read the disclaimer on top of the file)
 			
 	- Note: as oppposed to the common usage in the parsing communities, all constituency results are given for sentences of all lenght and all tokens are evaluated (including punctuation tokens). For both Evalb and LeafAncestor, the labels {TOP, S1, ROOT, VROOT} are stripped off.
 	
 * Multi Word Expressions evaluation:
 
-	- The French data set contains MWEs annotated at the morpho syntactic level. We evaluated them for the dependency track only. (see wiki page http://dokufarm.phil.hhu.de/spmrl2013/doku.php?id=shared_task_description )
+	- The French data set contains MWEs annotated at the morpho syntactic level. We evaluated them for the dependency track only. (see `wiki page <http://dokufarm.phil.hhu.de/spmrl2013/doku.php?id=shared_task_description>`_ )
 
-		+ MWE Evaluator (wrote by Marie Candito): http://pauillac.inria.fr/~seddah/do_eval_dep_mwe.pl
+		+ MWE Evaluator (wrote by Marie Candito): `do_eval_dep_mwe.pl <http://pauillac.inria.fr/~seddah/do_eval_dep_mwe.pl>`_
 
 	
 Predicted Tokens Scenarios:
@@ -89,8 +89,8 @@ Full train set size ⇒ with gold or predicted morphology (POS tag and features)
 5k sentences train set size ⇒ with gold or predicted morphology (POS tag and features).
 Note that the predicted data were provided as baseline, participants were free to use theirs. The French, Hebrew and Arabic predicted train sets have not been subjected to a cross fold jackniffing so participants were incited to do it (only a few did use their own predicted morphology though: Alpage-IGM and Alpage-Dyalog for French, Cadim for Arabic and IMS_SGZEDED_CIS for all languages.)
 
-* http://pauillac.inria.fr/~seddah/updated_official.spmrl_results.html
-* http://pauillac.inria.fr/~seddah/updated_official.csv
+* `web <http://pauillac.inria.fr/~seddah/updated_official.spmrl_results.html>`_
+* `csv <http://pauillac.inria.fr/~seddah/updated_official.csv>`_
 
 
 All languages ranking (Pred/Full)
@@ -157,20 +157,20 @@ Constituent Parsing track
 Only IMS-SZEGED-CIS participated, we provided baseline results using the Berkeley Parser in its default mode -- s/m: 5, OOV threshold: 10, default lexicon -- (Petrov et al, 2006, 2007) in two modes: with provided POS Tags (ie Tagged) and in Raw mode (the parser did its own pos tagging). 
 
 * Parseval scores:
-	- http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html
-	- http://pauillac.inria.fr/~seddah/official_ptb-all.csv
+	- `web <http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html>`_
+	- `csv <http://pauillac.inria.fr/~seddah/official_ptb-all.csv>`_
 
 * LeafAncestor scores:
-	- http://pauillac.inria.fr/~seddah/official_leaf-all.spmrl_results.html
-	- http://pauillac.inria.fr/~seddah/official_leaf-all.csv
+	- `web <http://pauillac.inria.fr/~seddah/official_leaf-all.spmrl_results.html>`_
+	- `csv <http://pauillac.inria.fr/~seddah/official_leaf-all.csv>`_
 
 
 
 Multi Word Expression Evaluation
 --------------------------------
 
-* http://pauillac.inria.fr/~seddah/official-mwe.spmrl_results.html
-* http://pauillac.inria.fr/~seddah/mwe_french_eval_conll.csv
+* `web <http://pauillac.inria.fr/~seddah/official-mwe.spmrl_results.html>`_
+* `csv <http://pauillac.inria.fr/~seddah/mwe_french_eval_conll.csv>`_
 
 MWE French ranking:
 
@@ -192,7 +192,7 @@ A fully labeled mode (where edges, either from const. trees or dependencies, are
 An unlabeled mode which allows for easier cross-framework comparison (between const. and dep. parsers). In order to perform a fully labeled evaluation of a const. tree, each edges needs to bear a function label. Please see the overview paper for full details on the cross framework scenarios.
 
 * Unlabeled mode
-	- http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html
+	- `tedeval unlabeled (<70) <http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html>`_
 
 	- Arabic Ranking (full/pred)
 		+ IMS-SZEGED-CIS
@@ -206,7 +206,7 @@ An unlabeled mode which allows for easier cross-framework comparison (between co
 		
 
 * Labeled mode
-	- http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html
+	- `tedeval labeled (<70) <http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html>`_
 
 	- Arabic Ranking (full/pred)
 		+ IMS-SZEGED-CIS
