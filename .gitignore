@@ -1,3 +1,5 @@
 oldstuff/
 *.pyc
 *~
+pelican.pid
+srv.pid
