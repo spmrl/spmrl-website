@@ -167,7 +167,18 @@ Only IMS-SZEGED-CIS participated, we provided baseline results using the Berkele
 
 
 Multi Word Expression Evaluation
--------------------------
+--------------------------------
+
+* http://pauillac.inria.fr/~seddah/official-mwe.spmrl_results.html
+* http://pauillac.inria.fr/~seddah/mwe_french_eval_conll.csv
+
+MWE French ranking:
+
+* IGM-ALPAGE
+* IMS-SZEGED-CIS
+* ALPAGE DYALOG
+
+
 
 
 Non Gold Token Evaluation
