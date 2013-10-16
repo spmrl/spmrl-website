@@ -103,50 +103,49 @@ All languages ranking (Pred/Full)
 Breakdown by language (Pred/Full)
 
 * Arabic
-
-	- IMS-SZEGED-CIS
-	- CADIM
-	- MALTOPTIMIZER
+	1. IMS-SZEGED-CIS
+	2. CADIM
+	3. MALTOPTIMIZER
 
 * Basque
-	- IMS-SZEGED-CIS
-	- BASQUE TEAM
-	- MALTOPTIMIZER
+	1. IMS-SZEGED-CIS
+	2. BASQUE TEAM
+	3. MALTOPTIMIZER
 
 * French
-	- IGM-ALPAGE
-	- IMS-SZEGED-CIS
-	- BASQUE TEAM
+	1. IGM-ALPAGE
+	2. IMS-SZEGED-CIS
+	3. BASQUE TEAM
 
 * German
-	- IMS-SZEGED-CIS
-	- BASQUE TEAM
-	- ALPAGE DYALOG
+	1. IMS-SZEGED-CIS
+	2. BASQUE TEAM
+	3. ALPAGE DYALOG
 
 * Hebrew
-	- IMS-SZEGED-CIS
-	- ALPAGE DYALOG
-	- MALTOPTIMIZER
+	1. IMS-SZEGED-CIS
+	2. ALPAGE DYALOG
+	3. MALTOPTIMIZER
 
 * Hungarian
-	- IMS-SZEGED-CIS
-	- BASQUE TEAM
-	- MALTOPTIMIZER
+	1. IMS-SZEGED-CIS
+	2. BASQUE TEAM
+	3. MALTOPTIMIZER
 
 * Korean
-	- IMS-SZEGED-CIS
-	- MALTOPTIMIZER
-	- BASELINE MALT
+	1. IMS-SZEGED-CIS
+	2. MALTOPTIMIZER
+	3. BASELINE MALT
 
 * Polish
-	- IMS-SZEGED-CIS
-	- ALPAGE DYALOG
-	- MALTOPTIMIZER
+	1. IMS-SZEGED-CIS
+	2. ALPAGE DYALOG
+	3. MALTOPTIMIZER
 
 * Swedish
-	- IMS-SZEGED-CIS
-	- BASQUE TEAM
-	- ALPAGE DYALOG
+	1. IMS-SZEGED-CIS
+	2. BASQUE TEAM
+	3. ALPAGE DYALOG
 
 (Teams that used undisclosed unlabeled data are not part of the official ranking)
 
@@ -191,32 +190,30 @@ Results on the predicted tokens scenarios are evaluated using Tedeval 2.2 (Tsarf
 A fully labeled mode (where edges, either from const. trees or dependencies, are decorated by their original labels). This mode allow for a full comparison between dependency parses produced on gold tokens and predicted tokens from the raw source text.
 An unlabeled mode which allows for easier cross-framework comparison (between const. and dep. parsers). In order to perform a fully labeled evaluation of a const. tree, each edges needs to bear a function label. Please see the overview paper for full details on the cross framework scenarios.
 
-* Unlabeled mode
-	- `tedeval unlabeled (<70) <http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html>`_
+* Unlabeled mode ( `tedeval unlabeled (<70) <http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html>`_ )
 
 	- Arabic Ranking (full/pred)
-		+ IMS-SZEGED-CIS
-		+ CADIM
-		+ MALTOPTIMER
+		1. IMS-SZEGED-CIS
+		2. CADIM
+		3. MALTOPTIMER
 	
 	- Hebrew Ranking (full/pred)	
-		+ IMS-SZEGED-CIS
-		+ ALPAGE DYALOG
-		+ MALTOPTIMIZER
+		1. IMS-SZEGED-CIS
+		2. ALPAGE DYALOG
+		3. MALTOPTIMIZER
 		
 
-* Labeled mode
-	- `tedeval labeled (<70) <http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html>`_
+* Labeled mode ( `tedeval labeled (<70) <http://pauillac.inria.fr/~seddah/official_tedeval-unlabel-70.spmrl_results.html>`_ )
 
 	- Arabic Ranking (full/pred)
-		+ IMS-SZEGED-CIS
-		+ CADIM
-		+ MALTOPTIMER
+		1. IMS-SZEGED-CIS
+		2. CADIM
+		3. MALTOPTIMER
 	
 	- Hebrew Ranking (full/pred)	
-		+ IMS-SZEGED-CIS
-		+ MALTOPTIMIZER	
-		+ ALPAGE DYALOG
+		1. IMS-SZEGED-CIS
+		2. MALTOPTIMIZER	
+		3. ALPAGE DYALOG
 			
 
 Getting the Shared Task Data Set
