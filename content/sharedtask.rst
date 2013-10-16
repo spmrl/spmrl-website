@@ -321,7 +321,8 @@ Science (Polish Academy of Sciences), Korea Advanced Institute of
 Science and Technology, University of the Basque Country, University
 of Lisbon, Uppsala University, University of Stuttgart, University of
 Szeged and University Paris Diderot (Paris 7).
-We are also very grateful to the Philosophical Faculty of the Heinrich-Heine Universität Düsseldorf for hosting the shared task data via their dokuwiki.
+We are also very grateful to the Philosophical Faculty of the Heinrich-Heine 
+Universität Düsseldorf for hosting the shared task data via their dokuwiki.
 
 
 We take advantage of this page to warmly and publicly thank  once more all
