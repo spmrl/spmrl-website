@@ -157,20 +157,20 @@ Constituent Parsing track
 Only IMS-SZEGED-CIS participated, we provided baseline results using the Berkeley Parser in its default mode -- s/m: 5, OOV threshold: 10, default lexicon -- (Petrov et al, 2006, 2007) in two modes: with provided POS Tags (ie Tagged) and in Raw mode (the parser did its own pos tagging). 
 
 * Parseval scores:
-	- `web <http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html>`_
-	- `csv <http://pauillac.inria.fr/~seddah/official_ptb-all.csv>`_
+	- `parseval web <http://pauillac.inria.fr/~seddah/official_ptb-all.spmrl_results.html>`_
+	- `parseval csv <http://pauillac.inria.fr/~seddah/official_ptb-all.csv>`_
 
 * LeafAncestor scores:
-	- `web <http://pauillac.inria.fr/~seddah/official_leaf-all.spmrl_results.html>`_
-	- `csv <http://pauillac.inria.fr/~seddah/official_leaf-all.csv>`_
+	- `leaf web <http://pauillac.inria.fr/~seddah/official_leaf-all.spmrl_results.html>`_
+	- `leaf csv <http://pauillac.inria.fr/~seddah/official_leaf-all.csv>`_
 
 
 
 Multi Word Expression Evaluation
 --------------------------------
 
-* `web <http://pauillac.inria.fr/~seddah/official-mwe.spmrl_results.html>`_
-* `csv <http://pauillac.inria.fr/~seddah/mwe_french_eval_conll.csv>`_
+* `mwe web <http://pauillac.inria.fr/~seddah/official-mwe.spmrl_results.html>`_
+* `mwe csv <http://pauillac.inria.fr/~seddah/mwe_french_eval_conll.csv>`_
 
 MWE French ranking:
 
