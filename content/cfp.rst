@@ -85,7 +85,7 @@ Workshop
 ~~~~~~~~
 
 - Yoav Goldberg (Bar Ilan University, Israel)
-- Yuval Marton (Columbia University, US)
+- Yuval Marton (Microsoft Inc., US)
 - Ines Rehbein (Potsdam University, Germany)
 - Yannick Versley (Tübingen University, Germany)
 
@@ -119,7 +119,6 @@ Program committee
 -  Alberto Lavelli (FBK-irst, Italy)
 -  Joseph Le Roux (Université Paris-Nord, France)
 -  Wolfgang Maier (University of Düsseldorf, Germany)
--  Yuval Marton (IBM Watson Research Center, US)
 -  Takuya Matsuzaki (University of Tokyo, Japan)
 -  Joakim Nivre (Uppsala University, Sweden)
 -  Kemal Oflazer (Carnegie Mellon University, Qatar)
