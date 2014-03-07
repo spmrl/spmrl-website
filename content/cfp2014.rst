@@ -103,14 +103,14 @@ Workshop
 - Ines Rehbein (Potsdam University, Germany)
 - Yannick Versley (Heidelberg University, Germany)
 - Özlem Çetinoğlu (University of Stuttgart, Germany)
-- Joel Tetrault (Yahoo! Labs)
+- Joel Tetreault (Yahoo! Labs, US)
 
 SANCL Special Session
 ~~~~~~~~~~~~~~~~~~~~~
 - Ines Rehbein (Potsdam University, Germany)
 - Özlem Çetinoğlu (University of Stuttgart, Germany)
-- Joel Tetrault (Yahoo! Labs)
 - Djamé Seddah (Université Paris Sorbonne & INRIA's Alpage Project, France)
+- Joel Tetreault (Yahoo! Labs, US)
 
 Shared task
 ~~~~~~~~~~~
