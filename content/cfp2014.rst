@@ -1,0 +1,174 @@
+.. -*- coding:utf-8 -*-
+
+Call for Papers
+###############
+
+:date: 2014-03-07
+:tags: CfP, spmrl-sancl2014
+:category: CfP
+:slug: spmrl-sancl2014
+
+==================================================================================================================================================
+First Joint Workshop on Statistical Parsing of Morphologically Rich Languages and Syntactic Analysis of Non-Canonical Languages (SPMRL-SANCL 2014)
+==================================================================================================================================================
+
+ENDORSED BY SIGPARSE
+
+
+Co-located with Coling 2014, August 23/24  in Dublin, Ireland
+
+SPMRL-SANCL 2014 will feature a shared task on semi-supervised parsing morphologically rich languages.
+
+Join the Shared Task mailing list : https://sympa.inria.fr/sympa/info/mrlp-sharedtask
+
+
+**(In editing, please revisit for updated informations)**
+
+Outline
+-------
+
+Statistical parsing of morphologically-rich languages has repeatedly been shown to exhibit non-trivial challenges including, among others, sparse lexica in the face of rich inflectional systems, parsing deficiency in the face of free word order and treebank annotation idiosyncrasies in the face of morphosyntactic interactions.
+
+Similar problems arise for parsing non-canonical languages. Besides technical issues such as lexical sparseness and ad-hoc structures, we also face theoretical problems including constructions that do not, or very seldomly occur in standard language, such as verbless sentences or complex hashtags.
+
+The first joint SPMRL-SANCL workshop addresses both the challenge of parsing MRLs and NCLs. It provides a forum for research addressing the often overlapping issues of both fields with the goal of identifying cross-cutting issues in the annotation and parsing methodology for such languages.
+
+Areas of interest
+-----------------
+
+The areas of interest of the SPMRL-SANCL workshop include, but are not limited to, the following list of topics:
+
+- applying cutting-edge parsing techniques to new languages and domains
+- strengths and weaknesses of current parsing techniques when applied to morphologically-rich 
+  and/or non-canonical language
+- insights and techniques that are targeted at improving parsing quality for
+  morphologically-rich and/or non-canonical language
+- using insights from parsing and associated processing problems to motivate decisions in the creation of new syntactically annotated corpora
+- annotation and parsing of data from domains and genres that are not yet covered for many languages
+
+In addition to regular paper submissions, we ask for poster submissions addressing the syntactic analysis of frequent phenomena of non-canonical languages which are difficult to annotate and parse using conventional annotation schemes. A case in point are the representation of verbless utterances in a dependency scheme, the pros and cons of different representations of disfluencies for statistical parsing, or the analysis of complex hashtags which incorporate and merge different syntactic arguments into one token. The posters should focus on one or more of a number of given issues described in more detail  (see http://spmrl.org/sancl-posters2014.html) and will be presented at the workshop. More details on the submission categories for the poster session can be found below and at the website. 
+
+
+Shared Task
+-----------
+
+In addition, the workshop will host the second shared task on parsing morphologically rich language (see http://spmrl.org/spmrl2014-sharedtask.html). The first shared task was held in conjunction with SPMRL 2013, and helped show that carefully engineered approaches can help to push the envelope on languages such as Hungarian, Basque, Hebrew and Polish, where the shared task results for constituency parsing  are the best current known for those languages. Just as importantly, the task embodied a focus on realistic scenarios (no gold tokenization, no gold part-of-speech or morphology), as well as meaningful evaluation measures including a cross-framework evaluation that permits comparisons between constituent and dependency parsing models.
+
+In addition, this shared task was the first to feature, besides the English-only SANCL 2012 “parsing the web shared task”, a pure raw parsing scenario (no gold tokenization, no gold morphology) and to feature a cross-framework evaluation procedure which showed that the difference between constituent and dependency parsing models on this data set was not as high set as previously thought, especially when it comes to non gold input.
+
+The second installment will feature a similar range of languages. But it will also consider a semi-supervised scenario where larger quantities of in-domain text are available. These unlabeled data are aimed to be used for self-training, co-training, lexical acquisition, generating word clusters, word embeddings and so on. 
+A separate call for the Shared Task is to to be sent soon.
+
+
+
+
+
+Important Dates
+---------------
+
+
+===================    ===============
+Submission deadline    May 2, 2014
+Author Notification    June 6, 2014
+Camera ready copy      June 27, 2014
+Workshop               August (23/24?), 2014
+===================    ===============
+
+How to Submit
+-------------
+
+We solicit the following submission categories:
+- long papers (up to 14 pages excluding references) 
+- short papers (up to 7 pages excluding references)
+- abstracts (500 words excluding examples/references, for SANCL poster topics)
+- shared task paper submissions (deadline will be disclosed later)
+
+Long papers  are most appropriate for presenting substantial and completed research addressing a topic relevant to either SANCL or SPMRL.
+
+Short papers are suited for presenting work in progress, position papers or short, focused contributions relevant to either SANCL or SPMRL (including the poster session topics described above and, in more detail, `here <sancl-posters2014.html>`_).
+
+Both long and short papers should present original, unpublished research. They will be peer reviewed and will be presented as either an oral talk or as a poster at the workshop. Long/short papers will be included in the proceedings.
+Abstract submissions are most appropriate for presenting an idea for an analysis for one or more of the poster topics. In contrast to long/short paper submissions, abstract submissions do not need to back up their ideas with experimental results. Abstract submission will receive a yes/no review and will not be included in the proceedings.
+
+Submissions will be accepted until May, 2 , 2014, (11:59 p.m. PST) in PDF format via the `START system` and must be formatted using the `Coling stylefiles`.
+
+Organizers
+----------
+
+Workshop
+~~~~~~~~
+
+- Yoav Goldberg (Bar Ilan University, Israel)
+- Yuval Marton (Microsoft Inc., US)
+- Ines Rehbein (Potsdam University, Germany)
+- Yannick Versley (Heidelberg University, Germany)
+- Özlem Çetinoğlu (University of Stuttgart, Germany)
+- Joel Tetrault (Yahoo! Labs)
+
+SANCL Special Session
+~~~~~~~~~~~~~~~~~~~~~
+- Ines Rehbein (Potsdam University, Germany)
+- Özlem Çetinoğlu (University of Stuttgart, Germany)
+- Joel Tetrault (Yahoo! Labs)
+- Djamé Seddah (Université Paris Sorbonne & INRIA's Alpage Project, France)
+
+Shared task
+~~~~~~~~~~~
+- Sandra Kübler (Indiana University, US)
+- Djamé Seddah (Université Paris Sorbonne & INRIA's Alpage Project, France)
+- Reut Tsarfaty (Uppsala University, Sweden)
+
+Program committee
+-----------------
+- Bernd Bohnet (University of Birmingham, UK)
+- Marie Candito (University of Paris 7, France)
+- Aoife Cahill (Educational Testing Service Inc., US)
+- Jinho D. Choi (University of Massachusetts Amherst, US)
+- Grzegorz Chrupala (Tilburg University, Netherlands) 
+- Gülşen Cebiroğlu Eryiğit (Istanbul Technical University, Turkey)
+- Markus Dickinson (Indiana University, US) 
+- Stefanie Dipper (Ruhr-Universität Bochum, Germany)
+- Jacob Eisenstein (Georgia Institute of Technology, US)
+- Richard Farkas (University of Szeged, Hungary)
+- Jennifer Foster (Dublin City University, Ireland)
+- Josef van Genabith (DFKI, Germany)
+- Koldo Gojenola (University of the Basque Country, Spain)
+- Spence Green (Stanford University, US)
+- Samar Husain (Potsdam University, Germany)
+- Sandra Kübler (Indiana University, US) 
+- Joseph Le Roux (Université Paris-Nord, France)
+- John Lee (City University of Hong Kong, China)
+- Wolfgang Maier (University of Düsseldorf, Germany)
+- Takuya Matsuzaki (University of Tokyo, Japan)
+- David McClosky (IBM Research, US)
+- Detmar Meurers (University of Tübingen, Germany)
+- Joakim Nivre (Uppsala University, Sweden)
+- Kemal Oflazer (Carnegie Mellon University, Qatar)
+- Adam Przepiorkowski (ICS PAS, Poland)
+- Owen Rambow (Columbia University, US)
+- Kenji Sagae (University of Southern California, US)
+- Benoit Sagot (Inria Rocquencourt, France)
+- Djamé Seddah (Inria Rocquencourt, France)
+- Wolfgang Seeker (IMS Stuttgart, Germany)
+- Anders Soogard (University of Copenhagen, Denmark)
+- Reut Tsarfaty (Uppsala University, Sweden)
+- Lamia Tounsi (Dublin City University, Ireland)
+- Daniel Zeman (Charles University, Czechia)
+
+
+
+For general questions about the workshop, please email spmrl.sancl@gmail.com. For specific questions about the shared task, please email the shared task organizers spmrl.sharedtask@gmail.com
+
+
+ENDORSEMENT
+-----------
+
+This workshop is endorsed  by THE ACL SIGPARSE interest group. 
+
+For their precious help preparing the SPMRL 2013 Shared Task and for
+allowing their data to be part of it, we warmly thank the Linguistic
+Data Consortium, the Knowledge Center for Processing Hebrew (MILA),
+the Ben Gurion University, Columbia University, Institute of Computer
+Science (Polish Academy of Sciences), Korea Advanced Institute of
+Science and Technology, University of the Basque Country, Uppsala University, University of Stuttgart, University of
+Szeged and University Paris Diderot (Paris 7).

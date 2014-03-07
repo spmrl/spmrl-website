@@ -1,3 +1,11 @@
+0) The simple way
+If you have the link to the dropbox URL, simply tweak the
+version in dropbox and watch http://staging.spmrl.org
+being updated with the current version.
+
+When everything is to your liking, someone with an installed
+version of pelican needs to check the changes into github.
+
 1) How to install pelican
 install Python's pip package manager
 sudo apt-get install python-pip
