@@ -155,10 +155,12 @@ In informal spoken language as well as in CMC, a considerable amount of the data
 | 
 | (18)	Noch nihma at work und akku bei 81% hate gegen smartphones
 | 	not	yet at work and battery at 81% hate against smartphones
+| -- From Twitter
 | 
 | (19)	@tturkiish es tut mir so leid vallah 	ich wollte kommen ama unuttum 	 :(
 | 	@tturkiish it does me so harm my God I wanted come but forget-pst-1-sg :(
 | 	“@tturkiish I am so sorry, really, I wanted to come but I forgot :(“
+| -- From Twitter
 | 
 | (20)	Meine Mutter denn hat female problems gehaft gehabt. Un die durfte halt is the 
 | Arzt    hat gesacht de was    die  solsch haben is wieder ane Kind.
