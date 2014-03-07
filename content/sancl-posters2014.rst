@@ -220,5 +220,6 @@ SANCL Special Track Organizers
 ------------------------------
 - Ozlem Cetinoglu (IMS, Germany)
 - Ines Rehbein (Postdam University, Germany)
-- Joel Tetrault  (Yahoo Research, US)
 - Djamé Seddah (Université Paris Sorbonne & Inria's Alpage project)
+- Joel Tetreault  (Yahoo! Labs, US)
+
