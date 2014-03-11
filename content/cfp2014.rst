@@ -19,10 +19,6 @@ Co-located with Coling 2014, August 23/24  in Dublin, Ireland
 
 SPMRL-SANCL 2014 will feature a shared task on semi-supervised parsing morphologically rich languages.
 
-Join the Shared Task mailing list : https://sympa.inria.fr/sympa/info/mrlp-sharedtask
-
-
-**(In editing, please revisit for updated informations)**
 
 Outline
 -------
@@ -105,8 +101,8 @@ Workshop
 - Özlem Çetinoğlu (University of Stuttgart, Germany)
 - Joel Tetreault (Yahoo! Labs, US)
 
-SANCL Special Session
-~~~~~~~~~~~~~~~~~~~~~
+SANCL Special Track
+~~~~~~~~~~~~~~~~~~~
 - Ines Rehbein (Potsdam University, Germany)
 - Özlem Çetinoğlu (University of Stuttgart, Germany)
 - Djamé Seddah (Université Paris Sorbonne & INRIA's Alpage Project, France)

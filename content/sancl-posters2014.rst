@@ -1,16 +1,16 @@
 .. -*- coding:utf-8 -*-
 
-Special track on the Syntactic Analysis of Non-Canonical Languages
-##################################################################
+Special track on the Syntactic Analysis of Non-Canonical Language
+#################################################################
 
 :date: 2014-03-06
 :tags: CfP, sancl-spmrl2014
 :category: CfP
 :slug: sancl-posters2014
 
-==================================================================
-Special track on the Syntactic Analysis of Non-Canonical Languages
-==================================================================
+=================================================================
+Special track on the Syntactic Analysis of Non-Canonical Language
+=================================================================
 ENDORSED BY SIGPARSE
 
 The SANCL special track will be part of the joint SPMRL-SANCL 2014 - Statistical Parsing of Morphologically Rich Languages and Syntactic Analysis of Non-Canonical Languages"
