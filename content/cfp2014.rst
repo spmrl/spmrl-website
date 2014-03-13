@@ -74,8 +74,8 @@ How to Submit
 -------------
 
 We solicit the following submission categories:
-- long papers (up to 14 pages excluding references) 
-- short papers (up to 7 pages excluding references)
+- long papers (up to 11 pages excluding references) 
+- short papers (up to 6 pages excluding references)
 - abstracts (500 words excluding examples/references, for SANCL poster topics)
 - shared task paper submissions (deadline will be disclosed later)
 
