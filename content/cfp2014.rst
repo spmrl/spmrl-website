@@ -86,7 +86,7 @@ Short papers are suited for presenting work in progress, position papers or shor
 Both long and short papers should present original, unpublished research. They will be peer reviewed and will be presented as either an oral talk or as a poster at the workshop. Long/short papers will be included in the proceedings.
 Abstract submissions are most appropriate for presenting an idea for an analysis for one or more of the poster topics. In contrast to long/short paper submissions, abstract submissions do not need to back up their ideas with experimental results. Abstract submission will receive a yes/no review and will not be included in the proceedings.
 
-Submissions will be accepted until May, 2 , 2014, (11:59 p.m. PST) in PDF format via the `START system` and must be formatted using the `Coling stylefiles`.
+Submissions will be accepted until May, 2 , 2014, (11:59 p.m. PST) in PDF format via the `START system` and must be formatted using the `Coling 2014 formatting instructions <http://www.coling-2014.org/call-for-papers.php>`_.
 
 Organizers
 ----------
@@ -161,10 +161,11 @@ ENDORSEMENT
 
 This workshop is endorsed  by THE ACL SIGPARSE interest group. 
 
-For their precious help preparing the SPMRL 2013 Shared Task and for
+For their precious help preparing the SPMRL 2013 and 2014 Shared Task and for
 allowing their data to be part of it, we warmly thank the Linguistic
 Data Consortium, the Knowledge Center for Processing Hebrew (MILA),
-the Ben Gurion University, Columbia University, Institute of Computer
+the Ben Gurion University, Bar Illan University, Columbia University, Institute of Computer
 Science (Polish Academy of Sciences), Korea Advanced Institute of
-Science and Technology, University of the Basque Country, Uppsala University, University of Stuttgart, University of
+Science and Technology, University of the Basque Country, Uppsala University, 
+University of Stuttgart, University of
 Szeged and University Paris Diderot (Paris 7).

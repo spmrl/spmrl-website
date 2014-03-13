@@ -202,6 +202,9 @@ Resources & References
 ~~~~~~~~~~~~~~~~~~~~~~
 
 DCU Football Corpus
+Jennifer Foster, Ozlem Cetinoglu, Joachim Wagner, Joseph Le Roux, Joakim Nivre, Deirdre Hogan and Josef van Genabith, 2011.
+"From News to Comment: Resources and Benchmarks for Parsing the Language of Web 2.0."
+In `Proceedings of IJCNLP`, Chiang Mai, Thailand.
 
 
 Falko (Error-annotated Learner Corpus)

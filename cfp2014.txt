@@ -8,11 +8,6 @@ Co-located with Coling 2014, August 23/24 in Dublin, Ireland
 SPMRL-SANCL 2014 will feature a shared task on semi-supervised parsing
 morphologically rich languages.
 
-Join the Shared Task mailing list :
-https://sympa.inria.fr/sympa/info/mrlp-sharedtask
-
-(In editing, please revisit for updated informations)
-
 Outline
 
 Statistical parsing of morphologically-rich languages has repeatedly
@@ -99,7 +94,7 @@ Important Dates
   Submission deadline   May 2, 2014
   Author Notification   June 6, 2014
   Camera ready copy     June 27, 2014
-  Workshop              August 2014
+  Workshop              August (23/24?), 2014
   --------------------- -----------------------
 
 How to Submit
@@ -129,8 +124,8 @@ results. Abstract submission will receive a yes/no review and will not
 be included in the proceedings.
 
 Submissions will be accepted until May, 2 , 2014, (11:59 p.m. PST) in
-PDF format via the START system and must be formatted using the
-Coling stylefiles.
+PDF format via the START system and must be formatted using the Coling
+2014 formatting instructions.
 
 Organizers
 
@@ -141,15 +136,15 @@ Workshop
 -   Ines Rehbein (Potsdam University, Germany)
 -   Yannick Versley (Heidelberg University, Germany)
 -   Özlem Çetinoğlu (University of Stuttgart, Germany)
--   Joel Tetrault (Yahoo! Labs)
+-   Joel Tetreault (Yahoo! Labs, US)
 
-SANCL Special Session
+SANCL Special Track
 
 -   Ines Rehbein (Potsdam University, Germany)
 -   Özlem Çetinoğlu (University of Stuttgart, Germany)
--   Joel Tetrault (Yahoo! Labs)
 -   Djamé Seddah (Université Paris Sorbonne & INRIA's Alpage Project,
     France)
+-   Joel Tetreault (Yahoo! Labs, US)
 
 Shared task
 
@@ -203,11 +198,11 @@ ENDORSEMENT
 
 This workshop is endorsed by THE ACL SIGPARSE interest group.
 
-For their precious help preparing the SPMRL 2013 Shared Task and for
-allowing their data to be part of it, we warmly thank the Linguistic
-Data Consortium, the Knowledge Center for Processing Hebrew (MILA), the
-Ben Gurion University, Columbia University, Institute of Computer
-Science (Polish Academy of Sciences), Korea Advanced Institute of
-Science and Technology, University of the Basque Country, Uppsala
-University, University of Stuttgart, University of Szeged and University
-Paris Diderot (Paris 7).
+For their precious help preparing the SPMRL 2013 and 2014 Shared Task
+and for allowing their data to be part of it, we warmly thank the
+Linguistic Data Consortium, the Knowledge Center for Processing Hebrew
+(MILA), the Ben Gurion University, Bar Illan University, Columbia
+University, Institute of Computer Science (Polish Academy of Sciences),
+Korea Advanced Institute of Science and Technology, University of the
+Basque Country, Uppsala University, University of Stuttgart, University
+of Szeged and University Paris Diderot (Paris 7).
