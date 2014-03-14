@@ -112,13 +112,13 @@ Shared task
 ~~~~~~~~~~~
 - Sandra Kübler (Indiana University, US)
 - Djamé Seddah (Université Paris Sorbonne & INRIA's Alpage Project, France)
-- Reut Tsarfaty (Uppsala University, Sweden)
+- Reut Tsarfaty (Weizmann Institute of Science, Israel)
 
 Program committee
 -----------------
 - Bernd Bohnet (University of Birmingham, UK)
 - Marie Candito (University of Paris 7, France)
-- Aoife Cahill (Educational Testing Service Inc., US)
+- Aoife Cahill (Educational Testing Service, US)
 - Jinho D. Choi (University of Massachusetts Amherst, US)
 - Grzegorz Chrupala (Tilburg University, Netherlands) 
 - Gülşen Cebiroğlu Eryiğit (Istanbul Technical University, Turkey)
@@ -143,11 +143,11 @@ Program committee
 - Adam Przepiorkowski (ICS PAS, Poland)
 - Owen Rambow (Columbia University, US)
 - Kenji Sagae (University of Southern California, US)
-- Benoit Sagot (Inria Rocquencourt, France)
-- Djamé Seddah (Inria Rocquencourt, France)
+- Benoit Sagot (Inria, France)
+- Djamé Seddah (Univ. Paris Sorbonne, France)
 - Wolfgang Seeker (IMS Stuttgart, Germany)
 - Anders Soogard (University of Copenhagen, Denmark)
-- Reut Tsarfaty (Uppsala University, Sweden)
+- Reut Tsarfaty (Weizmann Institute of Science, Israel)
 - Lamia Tounsi (Dublin City University, Ireland)
 - Daniel Zeman (Charles University, Czechia)
 
