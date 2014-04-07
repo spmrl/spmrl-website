@@ -18,7 +18,7 @@ The SANCL special track will be part of the joint SPMRL-SANCL 2014 - Statistical
 Co-located with COLING 2014, August 23 - 29 in Dublin, Ireland
 
 
-(This page is in heavy editing and subjected to change often in the next few days)
+
 
 SANCL Poster submissions
 ------------------------
