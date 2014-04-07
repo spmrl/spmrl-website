@@ -26,10 +26,10 @@ SANCL Poster submissions
 In addition to regular paper submissions, we ask for poster submissions addressing the syntactic analysis of frequent phenomena of non-canonical languages which are difficult to annotate and parse using conventional annotation schemes. A case in point are the representation of verbless utterances in a dependency scheme, the pros and cons of different representations of disfluencies for statistical parsing, or the analysis of complex hashtags which incorporate and merge different syntactic arguments into one token.
 
 
- 
+Poster submissions should focus on one or more of the topics listed below. They should either be submitted as a short paper (up to 7 pages + references, to be included in the proceedings and presented as a poster at the workshop) or be submitted as an abstract (max. 500 words excluding examples/references, to be presented as a poster at the workshop). Abstract submissions should sketch an analysis for a given problem while short paper submissions should also present at least preliminary experimental results showing the feasibility of the approach.
+
 
 Important Dates
-
 ----------------
  
 
@@ -42,10 +42,13 @@ Important Dates
  Workshop               August 24, 2014
 
  ===================    ===============
+ 
+ 
 
 
-Poster submissions should focus on one or more of the topics listed below. They should either be submitted as a short paper (up to 7 pages + references, to be included in the proceedings and presented as a poster at the workshop) or be submitted as an abstract (max. 500 words excluding examples/references, to be presented as a poster at the workshop). Abstract submissions should sketch an analysis for a given problem while short paper submissions should also present at least preliminary experimental results showing the feasibility of the approach.
 Topics for poster submissions:
+------------------------------
+
 
 Unit of analysis
 ~~~~~~~~~~~~~~~~
