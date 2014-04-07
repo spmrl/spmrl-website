@@ -228,7 +228,6 @@ Jennifer Foster, Ozlem Cetinoglu, Joachim Wagner, Joseph Le Roux, Joakim Nivre, 
 "From News to Comment: Resources and Benchmarks for Parsing the Language of Web 2.0."
 In `Proceedings of IJCNLP`, Chiang Mai, Thailand.
 
-
 Falko (Error-annotated Learner Corpus)
 Reznicek, Marc; Lüdeling, Anke; Krummes, Cedric; Schwantuschke, Franziska; Walter, Maik; Schmidt, Karin; Hirschmann, Hagen; Andreas, Torsten (2012): Das Falko-Handbuch. Korpusaufbau und Annotationen Version 2.01 
 https://www.linguistik.hu-berlin.de/institut/professuren/korpuslinguistik/forschung/falko
@@ -236,6 +235,9 @@ https://www.linguistik.hu-berlin.de/institut/professuren/korpuslinguistik/forsch
 French Social Media Bank
 Djamé Seddah, Benoit Sagot, Marie Candito, Virginie Mouilleron, Vanessa Combet (2012): The French Social Media Bank: a Treebank of Noisy User Generated Content,, COLING 2012, Mumbay, India
 http://aclweb.org/anthology//C/C12/C12-1149.pdf
+
+KiDKo
+Rehbein, Ines; Schalowski, Sören; Wiese, Heike (2014): The KiezDeutsch Korpus (KiDKo) Release 1.0. In: Proceedings of LREC 2014, Reykjavik, Iceland.
 
 NoSta-D
 Dipper, Stefanie; Lüdeling, Anke; Reznicek, Marc (to appear): NoSta-D: A Corpus of German Non-Standard Varieties. In: Zampieri, Marcos (Hrsg.): Non-Standard Data Sources in Corpus-Based Research. Shaker Verlag.
