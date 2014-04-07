@@ -15,7 +15,7 @@ ENDORSED BY SIGPARSE
 
 The SANCL special track will be part of the joint SPMRL-SANCL 2014 - Statistical Parsing of Morphologically Rich Languages and Syntactic Analysis of Non-Canonical Languages"
 
-Co-located with COLING 2014, August 23 - 29 in Dublin, Ireland
+Co-located with COLING 2014, August 24 in Dublin, Ireland
 
 
 
