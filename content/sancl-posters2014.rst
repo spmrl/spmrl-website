@@ -27,6 +27,7 @@ In addition to regular paper submissions, we ask for poster submissions addressi
 
 
 Poster submissions should focus on one or more of the topics listed below. They should either be submitted as a short paper (up to 7 pages + references, to be included in the proceedings and presented as a poster at the workshop) or be submitted as an abstract (max. 500 words excluding examples/references, to be presented as a poster at the workshop). Abstract submissions should sketch an analysis for a given problem while short paper submissions should also present at least preliminary experimental results showing the feasibility of the approach.
+Submissions will be accepted until June, 6 , 2014, (11:59 p.m. PST) in PDF format via the START system and must be formatted using the Coling 2014 formatting instructions.
 
 
 Important Dates
