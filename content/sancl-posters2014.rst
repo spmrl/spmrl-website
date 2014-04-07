@@ -35,15 +35,15 @@ Important Dates
 ----------------
  
 
- ===================    ===============
+===================    ===============
  
- Submission deadline    June 6, 2014 
+Submission deadline    June 6, 2014 
 
- Author Notification    July 1, 2014
+Author Notification    July 1, 2014
  
- Workshop               August 24, 2014
+Workshop               August 24, 2014
 
- ===================    ===============
+===================    ===============
  
  
 
