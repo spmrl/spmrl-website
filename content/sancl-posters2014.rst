@@ -28,8 +28,7 @@ In addition to regular paper submissions, we ask for poster submissions addressi
 
 Poster submissions should focus on one or more of the topics listed below. They should either be submitted as a short paper (up to 7 pages + references, to be included in the proceedings and presented as a poster at the workshop) or be submitted as an abstract (max. 500 words excluding examples/references, to be presented as a poster at the workshop). Abstract submissions should sketch an analysis for a given problem while short paper submissions should also present at least preliminary experimental results showing the feasibility of the approach.
 
-Submissions will be accepted until **June, 13 , 2014, (11:59 p.m. GMT)** in PDF format via the `START system` and must be formatted using the `Coling 2014 formatting instructions <http://www.coling-2014.org/call-for-papers.php>`_.
-
+Submissions will be accepted until **June, 13 , 2014, (11:59 p.m. GMT)** in PDF format via the `START system` (https://www.softconf.com/coling2014/WS-13) and must be formatted using the `Coling 2014 formatting instructions <http://www.coling-2014.org/call-for-papers.php>`_.
 
 Important Dates
 ----------------
@@ -37,7 +36,7 @@ Important Dates
 
 ===================    ===============
  
-Submission deadline    June 6, 2014 
+Submission deadline    June 13, 2014 
 
 Author Notification    July 1, 2014
  

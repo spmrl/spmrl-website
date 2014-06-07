@@ -87,7 +87,7 @@ Short papers are suited for presenting work in progress, position papers or shor
 Both long and short papers should present original, unpublished research. They will be peer reviewed and will be presented as either an oral talk or as a poster at the workshop. Long/short papers will be included in the proceedings.
 Abstract submissions are most appropriate for presenting an idea for an analysis for one or more of the poster topics. In contrast to long/short paper submissions, abstract submissions do not need to back up their ideas with experimental results. Abstract submission will receive a yes/no review and will not be included in the proceedings.
 
-Submissions will be accepted until June, 6 , 2014, (11:59 p.m. PST) in PDF format via the `START system` and must be formatted using the `Coling 2014 formatting instructions <http://www.coling-2014.org/call-for-papers.php>`_.
+Submissions will be accepted until June, 6 , 2014, (11:59 p.m. PST) in PDF format via the `START system` (https://www.softconf.com/coling2014/WS-13) and must be formatted using the `Coling 2014 formatting instructions <http://www.coling-2014.org/call-for-papers.php>`_.
 
 Organizers
 ----------
